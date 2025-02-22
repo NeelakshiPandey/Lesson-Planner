@@ -356,15 +356,6 @@ export default function LessonPlanner() {
       y += 15;
     }
 
-    // Add page numbers
-    const pageCount = doc.internal.getNumberOfPages();
-    for (let i = 1; i <= pageCount; i++) {
-      doc.setPage(i);
-      doc.setFontSize(10);
-      doc.setTextColor(100, 100, 100);
-      doc.text(`Page ${i} of ${pageCount}`, doc.internal.pageSize.width - 30, doc.internal.pageSize.height - 10);
-    }
-
     doc.save("Lesson_Plan.pdf");
   };
 
