@@ -48,3 +48,38 @@ export default tseslint.config({
   },
 })
 ```
+# 📌 AI-Powered Lesson Planner
+
+🚀 **An AI-powered web app that helps educators generate structured lesson plans using the Google Gemini API.**  
+✅ Features a **dummy login system**, **AI-generated lesson plans**, **PDF export**, **dark mode**, and **local storage support**.
+
+---
+
+## **📌 Features**
+- 🏫 **Dummy Login Page** – Use **demouser/demopass** to log in.
+- 📝 **Lesson Plan Form** – Structured input fields for lesson creation.
+- 🤖 **AI-Powered Lesson Generation** – Uses **Google Gemini API** for structured lesson content.
+- 🖊️ **Editable Lesson Content** – Users can manually modify AI-generated text.
+- 📄 **Download as PDF** – Saves the plan in **pre-defined structured format**.
+- 🌙 **Dark Mode Toggle** – Switch between light and dark themes.
+- 💾 **Local Storage Support** – Saves lesson plans even after a page refresh.
+
+---
+
+## **📌 Tech Stack**
+| Technology  | Purpose |
+|------------|---------|
+| **React.js (Vite + TypeScript)** | Frontend framework |
+| **ShadCN UI + TailwindCSS** | UI components and styling |
+| **Google Gemini API** | AI-powered content generation |
+| **react-router-dom** | Client-side routing |
+| **jsPDF & jspdf-autotable** | PDF export |
+| **react-to-print** | Alternative PDF generation |
+
+---
+
+## **📌 Installation & Setup**
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/yourusername/lesson-planner.git
+cd lesson-planner
